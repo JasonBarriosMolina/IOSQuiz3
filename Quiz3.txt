@@ -1,0 +1,11 @@
+Explique todo el ciclo de Clean Swift architecture, cada una de sus capas ademas brinde un ejemplo sencillo de funciona.
+
+Clean Swift es una arquitectura que permite de ordenar y estructurar la capa de presentacion, logica y modelado dentro del desarrollo de aplicaciones IOS en Swift. 
+Permite generar codigo mejor estructurado donde no se cargan funciones con cantidades grandes de lineas de codigo si no hacerlo por medio de varias funciones con las lineas necesarias y que nos permite claridad de lectura y compresion.
+
+Presenter
+Worker
+Interactor
+Models
+
+Si tuvieramos una aplicacion que presente el detalle de cada opcion de una lista, podriamos decir que basicamente el presenter se encarga de desplegar los los detalles del dato seleccionado, el interactor realiza un pase de informacion entre el woker y el presenter, y a su vez el woker tiene el trabajo duro de generar la data necesaria para presentar y que es encapsulada en clases.
